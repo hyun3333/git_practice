@@ -1,0 +1,18 @@
+Git bash here 로컬 저장소
+명령어 Shift insert // git 붙혀넣기
+Git init // git 생성
+Git status (중요) // git 상태확인 
+Git add 파일명.확장자 // git 파일추가 (저장소)
+Git rm --cached 파일명 : 추가했던 git 파일을 삭제 
+Git add . // 문서 안 파일 다 추가 (저장소)
+(파일의 수정이 일어나면 add부터 다시 진행)
+Git commit // git 파일확정 (내용 길게 쓸때) 
+다 쓰고 esc누르면 insert모드로 변경 :wq (저장) :q (나가기)
+Git commit -am "내용" // git 추가와 동시에 확정을 한다 *새로 만든건 안된다 수정본만 가능하다
+Git commit -m "내용" // git 파일확정 (내용 간단하게 쓸때)
+Git log // 파일추가 확인
+Github 저장소
+Git remote add 내용(origin) 본인의 깃계정 // git 원격 저장소를 추가한다 (각 로컬 저장소(컴퓨터)당 한번 해두면 계속 연결되있음)
+Git remote -v // 원격 저장소 확인
+Git push add 내용(origin) 메인이름(master) // github 밀어넣기
+Git pull 내용(origin) 메인이름(master) // github 불러오기
